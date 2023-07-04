@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Wemart</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+            *, *:before, *:after {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+                text-align: center !important;
+            }
+
+        a, a.* {
+            color: #125da3 !important;
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#e4e4e4" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing: antialiased;width:100% !important;background:#e4e4e4;-webkit-text-size-adjust:none;padding:80px 0px;">
+    <!--Begin main-container-->
+    <table bgcolor="#e4e4e4" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#e4e4e4;">
+        <tr>
+            <td>
+                <table bgcolor="#fff" width="600" align="center" style="margin:0 auto; background-color:#fff; border-collapse:collapse;margin-bottom:30px;border:1px solid #ccc;">
+                    <!--Begin header-->
+                    <tr>
+                        <td style="text-align:center;background-color:#331356;height:150px;">
+                             <!--<img src="https://Wemart.tresmark.com/Common/EmailTemplates/email-designnew2.png" alt="header" />-->
+							 <img src="cid:Logo" alt="Wemart" style="width:30%;"/>
+                        </td>
+                    </tr>
+                    <!--End header-->
+                    <!--Begin content-->
+                    <tr>
+                        <td>
+                            <table bgcolor="#fff" width="540" align="center" style="margin:0 auto;border-collapse:collapse;">
+                                <tr>
+                                    <td>
+                                        <!--Begin Welcome content-->
+                                        <div style="margin:20px 0 20px 0; text-align:center;">
+                                            <h3 style="color:#000; font-family:Arial, Helvetica, sans-serif; font-size:20px;text-align:center;">
+                                                Your order has been placed
+                                            </h3>
+                                        </div>
+                                        <!--End Welcome content-->
+                                        <!--Begin Para-->
+                                        <div style="margin:20px 0 20px 0; text-align:center;">
+                                            <!--Begin Para1-->
+                                            <p style="color:#656565; font-family:Arial, Helvetica, sans-serif; font-size:14px;text-align:center;line-height: 23px; margin-bottom:20px;">
+                                                Dear @FullName,
+                                                <br />
+                                                <br />
+                                                Hey @FullName,
+                                                <br />
+                                                Great choice. Your order from <b> @ShopName </b>  is on its way.
+                                                <br />
+                                                Check below for your order details.
+                                                <br />
+                                                If you have any questions, feel free to contact us at any time via email at <b> wemartdevelopers@gmail.com </b> 
+                                                <br />
+                                                <br />
+                                                
+
+                                        
+    <!-- editing begins from here -->
+        <table width="100%" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#212228;text-align:left;border-collapse:collapse" >
+            <tbody><tr>
+                <td>&nbsp;&nbsp;</td>
+                <td align="center" style="width:600px; max-width:600px; padding-bottom:33px">
+
+        <hr width="100%" color="#331356" size="1">
+        
+          <table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse">
+          <tbody><tr>
+            <td height="30" style="font-size:2px;line-height:2px">&nbsp;</td>
+          </tr>
+          </tbody></table>
+            <table width="100%" cellpadding="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; color:#333333;font-size:14px;line-height:18px;border-collapse:collapse">
+              <tbody>
+                <tr>
+                <td align="left">
+                  <strong>Order Date:       </strong>  @OrderDate
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Delivery address: </strong>  @Location
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Shop Name:     </strong>  @ShopName
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Shop address:     </strong>  @ShopLocation
+                </td>
+                </tr>
+                
+                <tr>
+                <td align="left">
+                  <strong>Shop Number:     </strong>  @ShopNumber
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Status:           </strong>  @Status
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Rider Name:       </strong>  @RiderName
+                </td>
+                </tr>
+                <tr>
+                <td align="left">
+                  <strong>Bill Generated On:       </strong>  @BillDate
+                </td>
+                </tr>
+            </tbody></table>
+            <br>
+            <br>
+          
+            
+            <table width="100%" cellpadding="0" cellspacing="0"  style="font-family:Arial,Helvetica,sans-serif;padding-left:16px;padding-right:16px;text-align:left;margin-bottom:18px;color:#331356;font-weight:bold;font-size:14px;line-height:18px;border-collapse:collapse">
+              <tbody><tr>
+                <td align="left">
+                  Order details (Order number: @OrderID)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+            
+      
+            <table width="100%" cellpadding="0px" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;padding-left:30px;padding-right:30px;text-align:left;font-weight:bold;font-size:14px;line-height:18px;border-collapse:collapse" bgcolor="#eeeeee">
+      
+            <tbody><tr><td valign="top" align="center" style="font-family:'Avenir Book',Helvetica,sans-serif;font-size:14px;line-height:16px;color:#555555">
+              
+      </td></tr>
+      <tr>
+        <td colspan="3" style="font-size:14px;padding:14px 5px 14px 14px">
+        <table width="100%" bgcolor="" cellpadding="0" cellspacing="0" border="0" style="line-height:20px;text-transform:uppercase;border-collapse:collapse">
+          <tbody>
+            @tr
+          
+           <!-- tr data
+            <tr>
+              <td> <strong>3 X Chicken Biryani <p style="text-align: left;"> Rs 360.00</p> </strong> </td>
+            </tr>
+           -->
+       </tbody>
+      </table>
+    </td>
+    </tr>
+              
+      
+              
+      
+      
+    <tr>
+      <td valign="top" align="left" style="font-family:'Avenir Book',Arial,sans-serif;font-size:14px;padding-left:16px;padding-right:16px;line-height:32px;color:#555555" bgcolor="#eeeeee">
+        <strong>
+          <span style="color:#333333">Including 0.00% tax</span>
+        </strong>
+      </td>
+      <td align="right" style="padding:5px">
+        <strong>
+          Rs.0.00
+            </strong>
+          </td>
+        </tr>
+                          <tr>
+                            <td valign="top" align="left" style="font-family:'Avenir Book',Arial,sans-serif;font-size:14px;padding-left:16px;padding-right:16px;line-height:32px;color:#555555" bgcolor="#eeeeee">
+                              <strong>
+                                <span style="color:#333333">Total</span>
+                              </strong>
+                            </td>
+                            <td align="right" style="padding:5px">
+                              <strong>
+                                Rs @Total
+                                  </strong>
+                                </td>
+                              </tr>
+      
+      
+      
+      
+      
+                                <tr>
+                                  <td valign="top" align="left" style="font-family:'Avenir Book',Arial,sans-serif;font-size:14px;padding-left:16px;padding-right:16px;line-height:32px;color:#555555" bgcolor="#eeeeee">
+                                    <strong>
+                                      <span style="color:#333333">Payment method</span>
+                                    </strong>
+                                  </td>
+                                  <td align="right" style="padding:5px">
+                                    <strong>
+                                       Cash On Delivery
+                                        </strong>
+                                      </td>
+                                    </tr>
+            
+                                    
+                                <tr>
+                                  <td valign="top" align="left" style="font-family:'Avenir Book',Arial,sans-serif;font-size:14px;padding-left:16px;padding-right:16px;line-height:32px;color:#555555" bgcolor="#eeeeee">
+                                    <strong>
+                                      <span style="color:#333333"></span>
+                                    </strong>
+                                  </td>
+                                  <td align="right" style="padding:5px">
+                                    <strong>
+                                        </strong>
+                                      </td>
+                                    </tr>
+   
+                                    <tr>
+                                      <td valign="top" align="left" style="font-family:'Avenir Book',Arial,sans-serif;font-size:14px;padding-left:16px;padding-right:16px;line-height:32px;color:#555555" bgcolor="#eeeeee">
+                                        <strong>
+                                          <span style="color:#333333"></span>
+                                        </strong>
+                                      </td>
+                                      <td align="right" style="padding:5px">
+                                        <strong>
+                                            </strong>
+                                          </td>
+                                        </tr>
+            </tbody>
+          
+          </table>
+      
+            
+      
+      
+      
+
+              </td>
+              <td>&nbsp;&nbsp;</td>
+          </tr>
+      </tbody>
+    </table>
+      
+                                                <!--End Para1-->
+                                                <!--saprator-->
+                                            </p>
+                                      
+                                            <br />
+                                            Best Regards,<br />
+                                            <strong>Wemart Team</strong>
+                                            <!--End Para2-->
+                                            <!--saprator-->
+                                           
+
+                                        </div>
+                                        <!--End Para-->
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--End content-->
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    </div>
+
+    <!--Close main-container-->
+</body>
+</html>

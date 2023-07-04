@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\CategoryImgs\" />
+    <Folder Include="wwwroot\RiderImages\" />
+    <Folder Include="wwwroot\ProductImages\" />
+    <Folder Include="wwwroot\ShopImgs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wemart.Entities\Wemart.Entities.csproj" />
+    <ProjectReference Include="..\Wemart.Repositories\Wemart.Repositories.csproj" />
+    <ProjectReference Include="..\Wemart.SQL\Wemart.SQL.csproj" />
+  </ItemGroup>
+
+</Project>
